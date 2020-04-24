@@ -12,7 +12,7 @@
 [minihttp](https://github.com/chertov/hi_minihttp.git)
 ### 针对ipc场景的各个soc的sdk下载地址
 [soc-sdks](https://dl.openipc.org/SDK/)
- 
+
 # 硬件
 ## chips
 - **CPU:** Hi3518EV200
@@ -146,6 +146,8 @@ vi /etc/minihttp.ini
 将`isp_thread_stack_size`,`venc_stream_thread_stack_size`, `web_server_thread_stack_size`改为:**163840**
 
 **注意:不改配置文件,可能播放流一段时间会卡死**
+
+- [替换minihttp的方法-（Linux新手用）](/doc/Replace_minihttp.md)
 
 
 # 开发
